@@ -1,3 +1,4 @@
+// Entidad que representa los usuarios del sistema
 package edu.co.ustavillavicencio.quiz2.entities;
 
 import jakarta.persistence.*;

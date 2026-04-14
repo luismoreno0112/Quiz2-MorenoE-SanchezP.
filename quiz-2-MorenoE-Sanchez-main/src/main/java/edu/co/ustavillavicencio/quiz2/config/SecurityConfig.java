@@ -1,3 +1,5 @@
+// Configuración de seguridad de la aplicación
+// Aquí se definen permisos y autenticación
 package edu.co.ustavillavicencio.quiz2.config;
 
 import edu.co.ustavillavicencio.quiz2.config.jwt.JwtAuthenticationFilter;

@@ -1,4 +1,5 @@
-package edu.co.ustavillavicencio.quiz2;
+// Clase principal que inicia la aplicación Spring Boot
+// Desde aquí se levanta todo el sistemapackage edu.co.ustavillavicencio.quiz2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

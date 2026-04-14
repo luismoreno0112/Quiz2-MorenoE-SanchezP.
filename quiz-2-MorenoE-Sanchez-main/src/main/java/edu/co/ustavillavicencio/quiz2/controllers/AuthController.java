@@ -1,4 +1,5 @@
-package edu.co.ustavillavicencio.quiz2.controllers;
+
+// Controlador para la autenticación de usuarios (login y registro)package edu.co.ustavillavicencio.quiz2.controllers;
 
 import edu.co.ustavillavicencio.quiz2.controllers.dtos.auth.AuthRequest;
 import edu.co.ustavillavicencio.quiz2.controllers.dtos.auth.AuthResponse;

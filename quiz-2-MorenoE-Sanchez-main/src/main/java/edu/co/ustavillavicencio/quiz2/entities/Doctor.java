@@ -1,3 +1,4 @@
+// Entidad que representa un doctor en la base de datos
 package edu.co.ustavillavicencio.quiz2.entities;
 
 import jakarta.persistence.*;
