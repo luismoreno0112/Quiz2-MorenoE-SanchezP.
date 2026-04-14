@@ -1,3 +1,4 @@
+// Entidad que representa un hospital
 package edu.co.ustavillavicencio.quiz2.entities;
 
 import jakarta.persistence.*;

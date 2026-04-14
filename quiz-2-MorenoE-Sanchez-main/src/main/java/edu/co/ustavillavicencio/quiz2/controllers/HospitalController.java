@@ -1,3 +1,5 @@
+// Controlador encargado de manejar la información de hospitales
+
 package edu.co.ustavillavicencio.quiz2.controllers;
 
 import edu.co.ustavillavicencio.quiz2.controllers.dtos.hospital.HospitalRequest;
