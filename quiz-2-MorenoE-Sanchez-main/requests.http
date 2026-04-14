@@ -1,0 +1,54 @@
+### Login admin
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "Admin123*"
+}
+
+### Registrar doctor user
+POST http://localhost:8080/api/auth/signup
+Content-Type: application/json
+
+{
+  "username": "doctor1",
+  "password": "Doctor123*",
+  "role": "DOCTOR"
+}
+
+### Crear hospital (reemplaza TOKEN_ADMIN)
+POST http://localhost:8080/api/hospitals
+Content-Type: application/json
+Authorization: Bearer TOKEN_ADMIN
+
+{
+  "name": "Hospital Central"
+}
+
+### Crear doctor (reemplaza TOKEN_ADMIN)
+POST http://localhost:8080/api/doctors
+Content-Type: application/json
+Authorization: Bearer TOKEN_ADMIN
+
+{
+  "username": "doctor1",
+  "name": "Laura",
+  "lastName": "Gomez",
+  "age": 34,
+  "specialization": "Cardiologia",
+  "hospitalId": 1
+}
+
+### Login doctor
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "doctor1",
+  "password": "Doctor123*"
+}
+
+### Ver doctor autenticado (reemplaza TOKEN_DOCTOR)
+GET http://localhost:8080/api/doctors/me
+Authorization: Bearer TOKEN_DOCTOR
